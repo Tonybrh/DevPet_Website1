@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav_bar {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFC632;
+}
+
+.logo {
+    width: 300px;
+}
+
+.mid_bar {
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+}
+
+#menu_nav {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 3%;
+    width: 100%;
+    list-style: none;
+    font-size: 17px;
+}
+
+#menu_nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.items_nav {
+    position: relative;
+}
+
+.items_nav::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    border-radius: 4px;
+    scale: 0.1;
+    transform-origin: left;
+    transition: scale 0.25s;
+}
+
+.items_nav:hover::before {
+    scale: 1;
+}
+
+.items_nav:hover {
+    transition: transform 0.5s;
+    transform: scale(1.2);
+}
+
+#botao_contato {
+    color: white;
+    background-color: #F63B4F;
+    text-decoration: none;
+    margin: 0 70px 0 0px;
+    border: 0;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contato_container{
+    height: 700px;
+    width: 400px;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.contato_titulo{
+    border-radius: 10px 10px 0 0;
+    background-color: #FFC632;
+    border-top: 1px solid black;
+    text-align:center;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input_container{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+.contato_input{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+}
+.conteudo_header {
+    background-color: #FFC632;
+    height: 580px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.contato_label{
+    color: black;
+}
+.botao_enviar{
+    width: 270px;
+    height: 40px;
+    border: 0;
+    color: white;
+    background-color: #F63B4F;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.texto_esq {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.texto {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+.btn_orcamento {
+    margin: 70px;
+    box-shadow: black (1px 1px);
+}
+
+.btn_orcamento a {
+    text-decoration: none;
+    color: white;
+    background-color: #F63D3D;
+    padding: 20px 52px;
+    border-radius: 110px;
+    text-align: center;
+
+}
+
+.conteudo {
+    height: 1106px;
+    margin-bottom: 241px;
+}
+
+.sobre {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.btn_sb {
+    margin: 50px;
+    box-shadow: black (1px 1px);
+}
+
+.btn_sb a {
+    text-decoration: none;
+    color: white;
+    background-color: #F63D3D;
+    padding: 18px 40px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.section_title {
+    margin-bottom: 20px;
+}
+
+.cachorrinho_01 {
+    justify-content: space-around;
+}
+
+.imagem_dog {
+    background-image: url("../imagens/patinhas.png");
+    background-position: 50% 20%;
+    background-size: 120%;
+    width: 100%;
+    border-radius: 10%;
+}
+
+.section_title2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.racas_dir {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.cachorrinho_2 img {
+    margin-top: 15px;
+    width: 150px;
+}
+
+.racas_dir2 {
+    text-align: end;
+    margin-top: 50px;
+    font-size: 18px;
+    margin-bottom: 60px;
+
+}
+
+
+.banho_tosa {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.section_title3 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+}
+
+.cachorrinho_3 img {
+    margin-top: 16px;
+    width: 300px;
+}
+
+
+.clinica {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.section_title4 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.cachorrinho_4 img {
+    margin-top: 35px;
+    width: 170px;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #FFC632;
+    height: 120px;
+    padding-top: 20px;
+}
+
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input_container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer_input {
+    width: 250px;
+    height: 30px;
+    border-radius: 12px;
+    padding-left: 10px;
+    border: 0;
+    margin-top: 5px;
+}
+
+.footer_ul_container {
+    display: flex;
+}
+
+.vertical_separator {
+    height: 70px;
+    margin-right: 20px;
+    width: 2px;
+    background-color: white;
+}
+
+.horizontal_separator {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.footer_ul {
+    list-style: none;
+    color: white;
+}
+
+.footer_ul_item {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.footer_ul_item:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.footer_copyright {
+    color: white;
+}

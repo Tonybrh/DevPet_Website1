@@ -98,7 +98,33 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    
-
+    align-items: center;
+    gap: 10px;
 }
-
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.formInput{
+    width: 370px;
+    height: 30px;
+}
+#mensagem{
+    resize: none;
+}
+.submitButton{
+    height: 40px;
+    width: 100px;
+    background-color: #F63B4F;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}

@@ -69,6 +69,10 @@
     transform: scale(1.2);
 }
 
+#botao_contato a{
+    text-decoration: none;
+    color: white;
+}
 #botao_contato {
     color: white;
     background-color: #F63B4F;

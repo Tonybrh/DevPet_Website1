@@ -28,6 +28,11 @@
     justify-content: space-around;
 }
 
+#botao_contato a{
+    text-decoration: none;
+    color: white;
+}
+
 #menu_nav {
     text-decoration: none;
     display: flex;

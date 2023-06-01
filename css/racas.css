@@ -82,6 +82,11 @@
     cursor: pointer;
 }
 
+#botao_contato a{
+    text-decoration: none;
+    color: white;
+}
+
 /* Css do navBar termina aqui */
 
 .titulo_principal {

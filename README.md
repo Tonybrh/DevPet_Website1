@@ -6,14 +6,14 @@
 
 [Clique aqui para acessar](https://tonybrh.github.io/DevPet_Website1/index.html)
 
-##Tecnologias usadas
+## Tecnologias usadas
 -HTML
 -CSS
 -Javascript
 -Figma
 -Git e Github
 
-##Contato
+## Contato
 
 >antoniodias1106@gmail.com
 

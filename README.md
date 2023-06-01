@@ -7,11 +7,11 @@
 [Clique aqui para acessar](https://tonybrh.github.io/DevPet_Website1/index.html)
 
 ## Tecnologias usadas
--HTML
--CSS
--Javascript
--Figma
--Git e Github
+- HTML
+- CSS
+- Javascript
+- Figma
+- Git e Github
 
 ## Contato
 

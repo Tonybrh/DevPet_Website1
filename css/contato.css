@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.nav_bar {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.logo {
+    width: 300px;
+}
+
+.mid_bar {
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+}
+
+#menu_nav {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 3%;
+    width: 100%;
+    list-style: none;
+    font-size: 17px;
+}
+
+#menu_nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.items_nav {
+    position: relative;
+}
+
+.items_nav::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    border-radius: 4px;
+    scale: 0.1;
+    transform-origin: left;
+    transition: scale 0.25s;
+}
+
+.items_nav:hover::before {
+    scale: 1;
+}
+
+.items_nav:hover {
+    transition: transform 0.5s;
+    transform: scale(1.2);
+}
+
+#botao_contato {
+    color: white;
+    background-color: #F63B4F;
+    text-decoration: none;
+    margin: 0 70px 0 0px;
+    border: 0;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+
+.titulo_contato{
+    height: 200px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.formulario{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
